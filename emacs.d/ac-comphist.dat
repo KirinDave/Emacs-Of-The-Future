@@ -1,0 +1,512 @@
+((("simplespec" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("codahale" .
+   [0 0 0 0 0 0 0 1])
+  ("WorkerAnswerAggregatorSpec" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("AtomicInteger" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 1])
+  ("judgment" .
+   [0 0 0 0 0 0 0 1])
+  ("map" .
+   [1 0 0])
+  ("getOrElseUpdate" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("atomicNBHM" .
+   [0 0 1 0 0 0 0 0 1 0])
+  ("Judgment" .
+   [0 0 0 0 1 0 0 0])
+  ("data" .
+   [0 0 0 1])
+  ("magicschoolbus" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("serialization" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("loader" .
+   [1 0 0 0 0 0])
+  ("smembers" .
+   [0 0 0 0 0 0 0 1])
+  ("srem" .
+   [1 0 0 0])
+  ("sadd" .
+   [1 0 0 1])
+  ("zadd" .
+   [0 0 0 1])
+  ("connection" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("Configuration" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 1])
+  ("RedisClient" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  ("muTierCache" .
+   [1 0 0 0 0 0 0 0 0 0 1])
+  ("muTier" .
+   [1 0 0 0 0 0])
+  ("addOps" .
+   [0 0 0 0 0 1])
+  ("ProxyHandler" .
+   [0 0 0 0 0 0 0 0 0 0 0 1])
+  ("addServlet" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("StringIndexOutOfBoundsException" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Stream" .
+   [0 0 0 0 1 0])
+  ("Implicits" .
+   [1 0 0 0 0 0 0 0 0])
+  ("zipWithIndex" .
+   [0 0 0 1 0 0 0 0 0 0 0 1])
+  ("zip" .
+   [0 1 0])
+  ("jsObs" .
+   [0 0 1 0 0])
+  ("cardservice" .
+   [0 0 1 0 0 0 0 0 0 0 0])
+  ("getHistory" .
+   [0 1 0 0 0 0 0 0 0 0])
+  ("getTransactionHistory" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("splitAt" .
+   [0 0 0 0 0 0 1])
+  ("parseInt" .
+   [0 0 0 0 0 0 0 1])
+  ("Integer" .
+   [0 0 0 0 1 0 0])
+  ("length" .
+   [0 0 1 0 0 0])
+  ("auxillaryData" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("newBuilder" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("getValue" .
+   [0 0 0 1 0 0 0 0])
+  ("getKey" .
+   [0 0 0 0 0 1])
+  ("TransactionHistoryRecord" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Null" .
+   [0 0 0 1])
+  ("invoke" .
+   [1 0 0 0 0 0])
+  ("newInstance" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("namespace" .
+   [0 0 0 0 0 0 0 0 1])
+  ("getConstructor" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("wsServiceClass" .
+   [0 0 1 0 0 0 0 0 0 1 0 0 0 0])
+  ("manifest" .
+   [0 0 0 0 0 0 0 3])
+  ("net" .
+   [1 0 0])
+  ("EnumConstantNotPresentException" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("putIfAbsent" .
+   [0 0 2 0 0 0 0 0 0 0 0])
+  ("subsMap" .
+   [1 0 0 0 0 0 0])
+  ("candle" .
+   [0 0 0 0 0 1])
+  ("name" .
+   [0 0 1 0])
+  ("ActorRegistry" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 3])
+  ("vapidingest" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("produceRecords" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("FakeRecordGenerator" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("FakeTxviaRecord" .
+   [0 0 0 0 0 0 0 1 0 0 0 1 0 0 0])
+  ("TestIngester" .
+   [0 1 0 0 0 0 0 0 0 0 0 1])
+  ("oriole" .
+   [0 0 0 0 0 1])
+  ("Random" .
+   [0 0 0 0 0 1])
+  ("util" .
+   [0 0 0 4])
+  ("FakeDataGenerator" .
+   [4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("liftweb" .
+   [0 0 0 0 0 0 1])
+  ("subscribeForMore" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("windowSize" .
+   [0 0 0 0 0 0 0 0 0 2])
+  ("intermediate" .
+   [0 0 0 0 0 0 0 0 0 0 0 2])
+  ("common" .
+   [0 0 0 0 1 1])
+  ("ParamInfo" .
+   [0 0 0 0 0 0 0 0 1])
+  ("pendingSubscribers" .
+   [0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("Queue" .
+   [0 0 1 0 0])
+  ("clear" .
+   [1 0 0 0 0])
+  ("enqueue" .
+   [0 0 0 0 0 0 1])
+  ("teardownIngest" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("IngesterProtocol" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("cycleFrequence" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("TimeUnit" .
+   [1 0 0 1 0 0 0 0])
+  ("concurrent" .
+   [0 0 0 0 0 0 0 0 0 2])
+  ("scheduleOnce" .
+   [0 0 0 1 1 0 0 0 0 0 0 0])
+  ("Scheduler" .
+   [0 1 0 1 0 0 0 0 0])
+  ("Set" .
+   [0 0 1])
+  ("immutable" .
+   [0 0 0 1 0 0 0 0 3])
+  ("collection" .
+   [0 0 1 0 0 0 0 0 0 6])
+  ("scala" .
+   [0 0 0 0 2])
+  ("mutable" .
+   [0 0 0 0 0 0 4])
+  ("partition" .
+   [0 0 0 0 0 0 0 0 1])
+  ("toInsert" .
+   [0 0 0 0 0 0 0 1])
+  ("Supervision" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("dtf2SafeDtf" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("parseDateTime" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("safelyParseDateTime" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("forPattern" .
+   [0 0 0 0 0 0 0 1 0 2])
+  ("forStyle" .
+   [0 0 0 0 0 0 0 1])
+  ("asInstanceOf" .
+   [0 0 0 0 0 0 0 0 0 0 0 4])
+  ("apple" .
+   [0 0 0 0 1])
+  ("header" .
+   [0 0 0 0 1 0])
+  ("valAt" .
+   [1 0 0 0 0])
+  ("getClass" .
+   [0 0 0 0 0 0 0 1])
+  ("Annotation" .
+   [0 0 0 1 0 0 0 0 0 0])
+  ("insert" .
+   [1 0 0 0 0 0])
+  ("annotations" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("Accounting" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("getTransactionByUUID" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("when" .
+   [0 0 0 1])
+  ("pendingAnnMap" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("containsKey" .
+   [0 0 0 2 0 0 0 1 0 0 0])
+  ("malformedRequest" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("org" .
+   [2 0 2])
+  ("params" .
+   [0 0 0 0 0 1])
+  ("request" .
+   [0 0 0 0 0 0 2])
+  ("IPersistentMap" .
+   [0 0 0 0 2 0 0 1 0 0 0 0 0 0])
+  ("isDefinedAt" .
+   [0 0 0 0 1 0 0 0 0 0 1])
+  ("keyword" .
+   [0 0 0 0 1 0 1])
+  ("substring" .
+   [1 0 1 1 0 0 0 0 0])
+  ("implicitly" .
+   [0 0 0 0 0 0 0 0 0 2])
+  ("remoteAddress" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("Message" .
+   [0 0 0 0 0 0 1])
+  ("nextInt" .
+   [0 0 0 0 1 0 0])
+  ("info" .
+   [1 0 0 1])
+  ("register" .
+   [0 0 0 0 0 0 0 2])
+  ("actorFor" .
+   [0 0 0 0 0 0 0 1])
+  ("getOrElse" .
+   [0 0 0 1 0 0 0 0 4])
+  ("currentTimeMillis" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 2])
+  ("System" .
+   [0 0 0 0 1 0])
+  ("registerPerSession" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("unregister" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("shutdown" .
+   [1 0 0 0 0 0 0 0])
+  ("ServerCore" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("stop" .
+   [1 0 1 0])
+  ("URL" .
+   [0 0 2])
+  ("WSDLLoc" .
+   [0 0 1 0 0 0 0])
+  ("unapply" .
+   [0 1 0 0 0 0 0])
+  ("url" .
+   [1 0 0])
+  ("makeCardServiceVendor" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("getPort" .
+   [0 0 0 0 0 0 1])
+  ("PingRequest" .
+   [0 0 0 0 1 0 0 0 0 0 1])
+  ("getCardServiceSoap" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("TxViaSupport" .
+   [0 0 0 0 0 1 0 0 0 0 0 0])
+  ("getResource" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("pingTxvia" .
+   [0 0 0 0 0 0 0 0 2])
+  ("akka" .
+   [0 0 0 1])
+  ("actor" .
+   [1 0 0 0 0])
+  ("TypedActor" .
+   [0 0 1 1 1 0 0 0 0 0])
+  ("numTries" .
+   [1 0 0 0 0 0 0 0])
+  ("atMost" .
+   [0 0 0 0 0 1])
+  ("isEmpty" .
+   [0 0 1 0 0 0 1])
+  ("externalId" .
+   [0 0 0 0 0 0 0 0 0 2])
+  ("P" .
+   [1])
+  ("contained" .
+   [0 0 0 0 0 0 0 0 3])
+  ("classOf" .
+   [1 0 0 0 0 0 0])
+  ("toString" .
+   [0 0 0 0 0 0 0 3])
+  ("assert" .
+   [1 0 0 1 0 0])
+  ("capturedAt" .
+   [0 1 0 1 0 0 0 0 0 1])
+  ("contains" .
+   [0 0 0 1 0 0 0 1])
+  ("hashCode" .
+   [0 0 0 0 0 0 0 4])
+  ("compare" .
+   [0 0 0 0 0 0 2])
+  ("recency" .
+   [0 0 0 0 0 0 2])
+  ("Ordering" .
+   [0 0 0 0 1 0 0 0])
+  ("SiteMap" .
+   [0 0 0 0 0 0 1])
+  ("LiftRules" .
+   [0 0 0 1 0 0 0 0 0])
+  ("toList" .
+   [0 0 0 0 0 1])
+  ("subscribeFor" .
+   [0 0 0 0 0 0 0 0 0 0 0 5])
+  ("record" .
+   [0 0 0 0 1 0])
+  ("toSet" .
+   [0 0 0 0 1])
+  ("foreach" .
+   [0 0 0 2 0 0 1])
+  ("foldLeft" .
+   [0 0 0 0 0 0 0 1])
+  ("chunkSize" .
+   [0 0 0 0 0 1 0 0 0])
+  ("replay" .
+   [0 0 0 0 0 1])
+  ("isInstanceOf" .
+   [0 0 0 0 0 0 0 0 0 0 0 1])
+  ("nextBoolean" .
+   [0 0 0 0 0 1 0 1 0 0 1])
+  ("TransactionTemplate" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  (">~" .
+   [1 0])
+  ("distinct" .
+   [0 0 0 0 0 0 0 1])
+  ("dispatch" .
+   [0 0 0 0 0 0 0 1])
+  ("Console" .
+   [0 0 0 0 1 0 0])
+  ("println" .
+   [0 0 0 0 1 0 1])
+  ("actorOf" .
+   [0 0 0 0 0 0 1])
+  ("ingester" .
+   [0 0 0 0 0 0 0 2])
+  ("isRunning" .
+   [0 0 0 1 0 0 0 0 1])
+  ("exiter" .
+   [0 0 0 0 0 2])
+  ("param" .
+   [0 0 0 0 1])
+  ("description" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("amount" .
+   [0 0 0 0 0 1])
+  ("from" .
+   [0 0 0 1])
+  ("CleanRequestVarOnSessionTransition" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("asInt" .
+   [0 0 0 0 1])
+  ("currentJobs" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("spawn" .
+   [0 0 0 0 1])
+  ("getStreetLine" .
+   [0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("setCity" .
+   [0 0 0 1 0 0 0])
+  ("setPostalCode" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("Count" .
+   [0 0 0 0 1])
+  ("setRegion" .
+   [0 0 0 1 1 0 0 0 1])
+  ("setCountry" .
+   [0 0 0 1 0 0 0 0 0 0])
+  ("CountryType" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("getLineItem" .
+   [0 0 0 0 0 1 0 0 0 0 1])
+  ("PersonalizedCard" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("pCard" .
+   [0 0 0 0 2])
+  ("getPersonalizedCard" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("setVirtual" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("getPersonalization" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1])
+  ("PersonalizationRecord" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("setPersonalization" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("setTitle" .
+   [0 0 0 0 0 0 0 1])
+  ("setGender" .
+   [1 0 0 1 0 0 0 0 1])
+  ("MALE" .
+   [1 0 0 0])
+  ("setFirstName" .
+   [0 0 0 0 0 0 0 0 0 0 0 1])
+  ("firstName" .
+   [0 0 0 0 0 0 0 0 2])
+  ("setLastName" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("setDateOfBirth" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("XMLGregorianCalendar" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("setEmail" .
+   [0 0 0 1 0 0 0 0])
+  ("setAddress" .
+   [0 0 0 1 0 0 0 0 0 0])
+  ("setExternalReference" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("prec" .
+   [0 0 0 1])
+  ("setMarketingOptOut" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("orderItemFor" .
+   [0 0 0 1 0 0 0 0 0 0 0 0])
+  ("DatatypeFactory" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("placeOrder" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("recentQueries" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("orElse" .
+   [0 0 0 0 0 1])
+  ("banksimple" .
+   [0 0 0 0 0 0 0 0 0 3])
+  ("partners" .
+   [0 0 0 0 0 0 0 1])
+  ("txvia" .
+   [0 0 2 0 2])
+  ("JavaConversions" .
+   [0 0 0 1 1 0 0 0 0 0 0 0 0 0 0])
+  ("api" .
+   [0 0 3])
+  ("core" .
+   [1 0 0 1])
+  ("order" .
+   [1 0 0 0 0])
+  ("Factories" .
+   [0 0 0 0 0 0 0 0 1])
+  ("LineItem" .
+   [0 0 0 0 0 0 0 1])
+  ("Personalized" .
+   [0 0 0 0 0 0 1 0 0 0 0 0])
+  ("getPersonalized" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("sBuilderp" .
+   [0 0 0 0 0 0 0 0 1])
+  ("channel" .
+   [0 0 0 0 0 0 2])
+  ("HealthChecks" .
+   [0 0 0 0 1 0 0 0 0 0 0 0])
+  ("registerHealthCheck" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("ActorGroupCheck" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("report" .
+   [0 0 1 0 0 0])
+  ("split" .
+   [0 0 0 1 0])
+  ("size" .
+   [0 0 0 1])
+  ("EqualityConstraint" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("crowdflower" .
+   [0 0 0 0 0 0 0 0 0 0 2])
+  ("ArrayIndexOutOfBoundsException" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("dushuk" .
+   [0 0 0 0 0 1])
+  ("MuSet" .
+   [0 0 0 1 0])
+  ("first" .
+   [0 0 0 1 0])
+  ("MapBuilder" .
+   [0 0 0 1 0 0 0 0 0 0])
+  ("JudgmentData" .
+   [0 0 0 1 0 0 0 0 0 0 0 0])
+  ("collapse" .
+   [0 0 0 0 0 0 0 1])
+  ("aggregate" .
+   [0 0 0 0 0 0 0 0 1])
+  ("stopAggregating" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("hajimaruzo" .
+   [0 0 1 0 0 0 0 0 0 1])
+  ("pourInData" .
+   [0 0 0 0 0 0 0 0 0 3])))

@@ -1,0 +1,16 @@
+;; -*- mode: Lisp; -*-
+
+(setq prj-version nil)
+
+(setq prj-list
+      '(("vmproto" "~/Projects/vmproto")
+        ("eproject-0.3" "/Users/kirindave/.emacs.d/elpa/eproject-0.3/")))
+
+(setq prj-last-open nil)
+
+(setq prj-frame-pos
+      '((top . 321)
+        (left . 1150)
+        (width . 80)
+        (height . 40)))
+

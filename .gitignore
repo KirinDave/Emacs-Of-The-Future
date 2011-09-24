@@ -1,0 +1,11 @@
+*.beam
+*~
+#*#
+.git
+.cvs
+*.elc
+auto-save-list
+emacs.d/manual
+emacs.d/url
+_darcs
+.svn
