@@ -1,4 +1,50 @@
-((("simplespec" .
+((("unregisterZkService" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("Function" .
+   [0 0 0 1 0 0 0 0])
+  ("zkPath" .
+   [0 0 0 0 0 1])
+  ("getChildren" .
+   [0 0 0 1 0 0 0 0 0 0 0])
+  ("zookeeperServicePath" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("service" .
+   [0 0 0 0 0 0 1])
+  ("zookeeper" .
+   [0 0 0 0 0 0 0 0 1])
+  ("exists" .
+   [0 0 0 0 0 2])
+  ("rulesForJobId" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("gimpyRuleProvider" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("basicSpec" .
+   [0 0 0 0 0 0 0 1 0])
+  ("removeJob" .
+   [0 0 0 0 0 0 0 0 1])
+  ("insertJob" .
+   [0 0 0 0 0 0 0 0 2])
+  ("threshold" .
+   [0 0 0 0 0 0 0 0 1])
+  ("IllegalArgumentException" .
+   [0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("dataPresent" .
+   [0 0 0 0 0 0 0 1 0 0 0])
+  ("increment" .
+   [0 0 0 0 0 0 0 0 1])
+  ("isDefined" .
+   [0 0 0 0 0 0 0 0 1])
+  ("URLEncoder" .
+   [0 0 0 1 0 0 0 0 0 0])
+  ("worksetnulldetector" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3])
+  ("timeQuanta" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("fullAggregator" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("unitJudgmentSummaries" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("simplespec" .
    [1 0 0 0 0 0 0 0 0 0])
   ("codahale" .
    [0 0 0 0 0 0 0 1])
@@ -9,7 +55,7 @@
   ("judgment" .
    [0 0 0 0 0 0 0 1])
   ("map" .
-   [1 0 0])
+   [2 0 0])
   ("getOrElseUpdate" .
    [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
   ("atomicNBHM" .
@@ -103,7 +149,7 @@
   ("EnumConstantNotPresentException" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("putIfAbsent" .
-   [0 0 2 0 0 0 0 0 0 0 0])
+   [0 0 2 1 0 0 0 0 0 0 0])
   ("subsMap" .
    [1 0 0 0 0 0 0])
   ("candle" .
@@ -169,7 +215,7 @@
   ("immutable" .
    [0 0 0 1 0 0 0 0 3])
   ("collection" .
-   [0 0 1 0 0 0 0 0 0 6])
+   [0 0 1 0 0 0 0 0 0 7])
   ("scala" .
    [0 0 0 0 2])
   ("mutable" .
@@ -247,7 +293,7 @@
   ("actorFor" .
    [0 0 0 0 0 0 0 1])
   ("getOrElse" .
-   [0 0 0 1 0 0 0 0 4])
+   [0 0 0 2 0 0 0 0 5])
   ("currentTimeMillis" .
    [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 2])
   ("System" .
@@ -295,7 +341,7 @@
   ("atMost" .
    [0 0 0 0 0 1])
   ("isEmpty" .
-   [0 0 1 0 0 0 1])
+   [0 0 3 0 0 0 2])
   ("externalId" .
    [0 0 0 0 0 0 0 0 0 2])
   ("P" .
@@ -311,9 +357,9 @@
   ("capturedAt" .
    [0 1 0 1 0 0 0 0 0 1])
   ("contains" .
-   [0 0 0 1 0 0 0 1])
+   [0 0 0 2 0 0 0 1])
   ("hashCode" .
-   [0 0 0 0 0 0 0 4])
+   [0 1 0 0 0 0 0 4])
   ("compare" .
    [0 0 0 0 0 0 2])
   ("recency" .
@@ -335,7 +381,7 @@
   ("foreach" .
    [0 0 0 2 0 0 1])
   ("foldLeft" .
-   [0 0 0 0 0 0 0 1])
+   [0 0 1 0 0 0 0 1])
   ("chunkSize" .
    [0 0 0 0 0 1 0 0 0])
   ("replay" .
@@ -453,7 +499,7 @@
   ("txvia" .
    [0 0 2 0 2])
   ("JavaConversions" .
-   [0 0 0 1 1 0 0 0 0 0 0 0 0 0 0])
+   [0 0 0 1 1 0 1 0 0 0 0 0 0 0 0])
   ("api" .
    [0 0 3])
   ("core" .
@@ -483,11 +529,11 @@
   ("split" .
    [0 0 0 1 0])
   ("size" .
-   [0 0 0 1])
+   [0 0 0 2])
   ("EqualityConstraint" .
    [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
   ("crowdflower" .
-   [0 0 0 0 0 0 0 0 0 0 2])
+   [0 0 0 0 0 0 0 0 0 0 6])
   ("ArrayIndexOutOfBoundsException" .
    [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("dushuk" .
@@ -501,7 +547,7 @@
   ("JudgmentData" .
    [0 0 0 1 0 0 0 0 0 0 0 0])
   ("collapse" .
-   [0 0 0 0 0 0 0 1])
+   [0 0 0 0 0 0 0 3])
   ("aggregate" .
    [0 0 0 0 0 0 0 0 1])
   ("stopAggregating" .
@@ -509,4 +555,42 @@
   ("hajimaruzo" .
    [0 0 1 0 0 0 0 0 0 1])
   ("pourInData" .
-   [0 0 0 0 0 0 0 0 0 3])))
+   [0 0 0 0 0 0 0 0 0 3])
+  ("SocketException" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("cache_hits" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("database" .
+   [1 0 0 0 0 0 0 0])
+  ("TheCount" .
+   [0 0 0 0 0 0 0 1])
+  ("event" .
+   [0 0 0 0 1])
+  ("incrementAndGet" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("wasNull" .
+   [0 0 0 0 1 0 0])
+  ("NullFieldRule" .
+   [0 0 0 0 3 0 0 0 0 0 0 0 1])
+  ("rules" .
+   [0 0 0 0 1])
+  ("actions" .
+   [0 0 0 0 0 0 1])
+  ("NullWebhook" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("worksetStore" .
+   [0 0 0 0 1 0 0 0 0 0 0 0])
+  ("get" .
+   [1 0 0])
+  ("ruleStore" .
+   [0 0 0 0 0 0 0 1 0])
+  ("commit" .
+   [0 0 0 0 0 2])
+  ("agg1Questions" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("agg1Answers" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("feedAggregator" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("failure" .
+   [0 0 0 1 0 0 0])))
